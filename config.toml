@@ -11,7 +11,7 @@ title = "Notasi"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "themes/hugo-icon/static/images/hero_bg.jpg"
+  img = "images/hero_bg.jpg"
   title = "Notasi<sup class='beta'> BETA</sup>"
   subtitle = "...all your data<br>...all <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
   description = "[Download Now](https://github.com/tullyclark/notasi)"
