@@ -54,7 +54,7 @@ title = "Notasi"
     name = "visualise"
     title = "Visualise"
     subtitle = "New Dashboards in Seconds!"
-    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, paginations and permissions so you can focus of communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, paginations and permissions so you can focus on communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
