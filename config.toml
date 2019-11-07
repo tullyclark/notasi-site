@@ -113,8 +113,8 @@ title = "Notasi"
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p>This site was designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> and modified by Tully Clark</p>"
-  github = "https://github.com/tullyclark/notasi"
+  note = "<p> Notasi is built by Tully Clark and released under the Apache License<br><small>Website design &copy; 2016 Free HTML5 Template. All Rights Reserved."
+#  github = "https://github.com/tullyclark/notasi"
 #  twitter = "#"
 #  facebook = "#"
 #  vine = "#"
