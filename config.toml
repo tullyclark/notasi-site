@@ -11,7 +11,6 @@ title = "Notasi"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
   title = "Notasi<sup class='beta'> BETA</sup>"
   subtitle = "...all your data <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
   description = "[Download Now](https://github.com/tullyclark/notasi)"
@@ -33,28 +32,28 @@ title = "Notasi"
     name = "store"
     title = "Store"
     subtitle = "No DBA Needed!"    
-    description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul>"
 
   [[params.mission.item]]
     weight = 2
     name = "query"
     title = "Query"
     subtitle = "All your data in one place!"
-    description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul>"
 
   [[params.mission.item]]
     weight = 3
     name = "connect"
     title = "Connect"
     subtitle = "No more waiting for underpowered 1<sup>st</sup> party connectors"
-    description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
 
   [[params.mission.item]]
     weight = 4
     name = "visualise"
     title = "Visualise"
     subtitle = "New Dashboards in Seconds!"
-    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, paginations and permissions so you can focus o communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, paginations and permissions so you can focus on communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul>"
 
 # Services section
 [params.services]
