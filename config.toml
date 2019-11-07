@@ -7,7 +7,7 @@ title = "Notasi"
 # Metadata
 [params]
   author = "Tully Clark"
-  description = "Founder"
+  description = "Start using your Data!"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
