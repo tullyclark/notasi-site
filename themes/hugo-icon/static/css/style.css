@@ -216,7 +216,7 @@ p {
   width: 100%;
   vertical-align: middle;
 }
-#fh5co-home .fh5co-copy-inner h1, #fh5co-home .fh5co-copy-inner h2 {
+#fh5co-home .fh5co-copy-inner h1, #fh5co-home .fh5co-copy-inner h3 {
   margin: 0;
   padding: 0;
 }
@@ -227,14 +227,14 @@ p {
   line-height: 1.2;
   font-weight: 300;
 }
-#fh5co-home .fh5co-copy-inner h2 {
+#fh5co-home .fh5co-copy-inner h3 {
   font-size: 28px;
   color: #fff;
   line-height: 1.2;
   color: rgba(255, 255, 255, 1);
 }
 
-#fh5co-home .fh5co-copy-inner h2 span {
+#fh5co-home .fh5co-copy-inner h3 span {
   display: inline-block;
   color: rgba(26, 31, 67, 0.7);
 }
@@ -494,7 +494,7 @@ width: 80%
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-tabs-container .fh5co-tab-content h2 {
+.fh5co-tabs-container .fh5co-tab-content h3 {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.8;
