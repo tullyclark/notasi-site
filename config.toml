@@ -2,12 +2,12 @@
 theme = "hugo-icon"
 baseURL = "/"
 languageCode = "en-AU"
-title = "Notasi"
+title = "Notasi - Data for Schools and SMBs"
 
 # Metadata
 [params]
   author = "Tully Clark"
-  description = "Start using your Data!"
+  description = "Notasi simplifies data centralisation, integration, and presentation so you can focus on using it. Get fast insights, analysis and integrations from multiple different data in minutes, not months! All free, all open source."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
