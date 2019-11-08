@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "/"
 languageCode = "en-AU"
-title = "Notasi - Data for Schools and SMBs"
+title = "Notasi - Data Centralisation for Schools and SMBs"
 
 # Metadata
 [params]
