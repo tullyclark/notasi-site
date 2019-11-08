@@ -101,26 +101,33 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
 # Uses section
 [params.uses]
   enable = true
-  heading = "Use Notasi As"
+  heading = "Use Notasi for"
 
   [[params.uses.item]]
     weight = 1
     name = "middleware"
-    title = "Your<br>Middleware"
-    #subtitle = "Sync to your LMS from Anywhere!"    
+    title = "LMS<br>Syncing"
+    subtitle = "Replace your custom code!"    
     #description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul>"
 
   [[params.uses.item]]
     weight = 2
     name = "dashboard"
-    title = "Your<br>Dashboards"
-    #subtitle = "All your data in one place!"
+    title = "User Focused<br>Dashboards"
+    subtitle = "Personal dashboards for all your users!"
     #description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul>"
 
   [[params.uses.item]]
     weight = 3
     name = "lake"
-    title = "Your<br>Data Lake"
+    title = "Handling<br>Spreadsheets"
+    subtitle = "Pull your all data together from an unlimited number of sources"
+    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+
+  [[params.uses.item]]
+    weight = 5
+    name = "lake"
+    title = "Custom<br>SIS API"
     #subtitle = "No more waiting for underpowered 1<sup>st</sup> party connectors"
     #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
 
@@ -129,8 +136,8 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Got Questions?"
+  title = "Want to Use Notasi? Get In Touch"
+  #message = "Got Questions?"
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
