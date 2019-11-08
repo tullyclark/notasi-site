@@ -849,7 +849,7 @@ width: 80%
     height: 200px;
   }
 }
-#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
+#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner p {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -857,7 +857,7 @@ width: 80%
   visibility: hidden;
   position: relative;
 }
-#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2 {
+#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
   top: -10px;
   font-size: 20px;
   margin-bottom: 10px;
@@ -866,7 +866,7 @@ width: 80%
   transition: 0.3s;
   position: relative;
 }
-#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
+#fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner p {
   font-size: 16px;
   color: #fff;
   -webkit-transition: 0.3s;
@@ -883,14 +883,14 @@ width: 80%
   opacity: .8;
   visibility: visible;
 }
-#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h3 {
+#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:hover .fh5co-copy-inner p, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner p, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner p {
   opacity: 1;
   visibility: visible;
 }
-#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h2 {
+#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h3 {
   top: 0;
 }
-#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h3 {
+#fh5co-gallery .fh5co-item:hover .fh5co-copy-inner p, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner p, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner p {
   bottom: 0;
 }
 

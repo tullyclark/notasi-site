@@ -14,9 +14,9 @@
         <div class="fh5co-overlay"></div>
         <div class="fh5co-copy">
           <div class="fh5co-copy-inner">
-      <h2>{{ .title | markdownify }}</h2>
+      <h3>{{ .title | markdownify }}</h3>
       {{ if isset . "subtitle" }}
-      <h3>{{ .subtitle | markdownify }}</h3>
+      <p>{{ .subtitle | markdownify }}</p>
       {{ end }}
           </div>
         </div>
