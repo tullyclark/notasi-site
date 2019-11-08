@@ -7,7 +7,7 @@ title = "Notasi - Data for Schools and SMBs"
 # Metadata
 [params]
   author = "Tully Clark"
-  description = "Notasi simplifies data centralisation, integration, and presentation so you can focus on using it. Get fast insights, analysis and integrations from multiple different data in minutes, not months! All free, all open source."
+  description = "Notasi focuses on data centralisation, so you can focus on insights. Notasi simplifies the data analytics process for your school or small business."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
