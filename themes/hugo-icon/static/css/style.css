@@ -407,6 +407,72 @@ width: 80%
   }
 }
 
+
+
+
+
+#fh5co-uses {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  width: 100%;
+  padding: 3em 0 3em 0 ;
+}
+#fh5co-uses .fh5co-2col {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-uses .fh5co-2col {
+    width: 100%;
+  }
+}
+#fh5co-uses .fh5co-2col-inner {
+  padding: 0;
+  width: 585px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 1200px) {
+  #fh5co-uses .fh5co-2col-inner {
+    width: 485px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fh5co-uses .fh5co-2col-inner {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-uses .fh5co-2col-inner {
+    width: 100% !important;
+    padding: 2em 0 0em 0;
+  }
+}
+#fh5co-uses .fh5co-2col-inner.left {
+/*  float: right;*/
+width: 80%
+}
+@media screen and (max-width: 768px) {
+  #fh5co-uses .fh5co-2col-inner.left {
+    float: none;
+  }
+}
+#fh5co-uses .fh5co-2col-inner.right {
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-uses .fh5co-2col-inner.right {
+    float: none;
+  }
+}
+
 .fh5co-grid {
   padding-left: 2em;
 }
@@ -896,6 +962,7 @@ width: 80%
 
 #fh5co-contact {
   padding: 3em 0;
+  background: #E8ECF1;
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
@@ -917,7 +984,7 @@ width: 80%
 
 #fh5co-footer {
   padding: 3em 0;
-  background: #E8ECF1;
+/*  background: #E8ECF1;*/
   -webkit-box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
   box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);

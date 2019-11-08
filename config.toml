@@ -19,14 +19,15 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
 [params.nav]
   mission = "Features"
   services = "Screenshots"
-  contact = "Get In Touch"
+  uses = "Use Cases"
+  contact = "Contact"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
 # Mission section
 [params.mission]
   enable = true
-  heading = "Features"
+  heading = "What Can Notasi Do"
 
   [[params.mission.item]]
     weight = 1
@@ -60,7 +61,7 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
 [params.services]
   enable = true
   video = false
-  title = "Screenshots"
+  title = "See Notasi"
 
   [[params.services.item]]
     title = "Processes"
@@ -96,6 +97,33 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
     title = "Charts and Dashboards"
     subtitle = "Responsive, Paginated, iFrame-able"
     img = "images/chart.png"
+
+# Uses section
+[params.uses]
+  enable = true
+  heading = "Use Notasi As"
+
+  [[params.uses.item]]
+    weight = 1
+    name = "middleware"
+    title = "Your<br>Middleware"
+    #subtitle = "Sync to your LMS from Anywhere!"    
+    #description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul>"
+
+  [[params.uses.item]]
+    weight = 2
+    name = "dashboard"
+    title = "Your<br>Dashboards"
+    #subtitle = "All your data in one place!"
+    #description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul>"
+
+  [[params.uses.item]]
+    weight = 3
+    name = "lake"
+    title = "Your<br>Data Lake"
+    #subtitle = "No more waiting for underpowered 1<sup>st</sup> party connectors"
+    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+
 
 
 # Contact section
