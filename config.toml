@@ -26,6 +26,7 @@ title = "Notasi - Data for Schools and SMBs"
 # Mission section
 [params.mission]
   enable = true
+  heading = "Features"
 
   [[params.mission.item]]
     weight = 1

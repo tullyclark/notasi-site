@@ -355,6 +355,7 @@ p {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   width: 100%;
+  padding: 3em 0 3em 0 ;
 }
 #fh5co-about .fh5co-2col {
   width: 100%;
@@ -362,10 +363,11 @@ p {
 @media screen and (max-width: 768px) {
   #fh5co-about .fh5co-2col {
     width: 100%;
+  padding: 3em 0 3em 0;
   }
 }
 #fh5co-about .fh5co-2col-inner {
-  padding: 5em 0;
+  padding: 0;
   width: 585px;
   margin-right: auto;
   margin-left: auto;
@@ -464,7 +466,7 @@ width: 80%
 }
 .fh5co-tabs-container .fh5co-tabs li a {
   border-bottom: 1px solid #ccc;
-  padding: 30px 0;
+  padding: 0 0 30px 0;
   float: left;
   width: 100%;
   display: block;
@@ -549,7 +551,7 @@ width: 80%
 
 #fh5co-services {
   position: relative;
-  padding: 7em 0;
+  padding: 3em 0;
   background: #E8ECF1;
 }
 @media screen and (max-width: 768px) {
@@ -891,7 +893,7 @@ width: 80%
 }
 
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
