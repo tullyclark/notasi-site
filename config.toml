@@ -12,7 +12,7 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
 # Hero section (from here on is for icon theme)
 [params.hero]
   title = "Notasi<sup class='beta'> BETA</sup>"
-  subtitle = "Notasi<sup class='beta'> BETA</sup></br>...all your data <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
+  subtitle = "..all your data <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
   description = "[Download Now](https://github.com/tullyclark/notasi)"
 
 # Navigation section
