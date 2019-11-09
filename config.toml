@@ -106,29 +106,36 @@ title = "Notasi - Data Centralisation for Schools and SMBs"
   [[params.uses.item]]
     weight = 1
     name = "middleware"
-    title = "LMS<br>Syncing"
+    title = "LMS Syncing"
     subtitle = "Replace your custom code!"    
     #description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul>"
 
   [[params.uses.item]]
     weight = 2
     name = "dashboard"
-    title = "User Focused<br>Dashboards"
+    title = "User Focused Dashboards"
     subtitle = "Personal dashboards for all your users!"
     #description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul>"
 
   [[params.uses.item]]
     weight = 3
-    name = "lake"
-    title = "Handling<br>Spreadsheets"
-    subtitle = "Pull your all data together from an unlimited number of sources"
+    name = "spreadsheet"
+    title = "Handling Spreadsheets"
+    subtitle = "Run SQL on your spreadsheets!"
+    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+
+  [[params.uses.item]]
+    weight = 4
+    name = "api"
+    title = "Custom Database API"
+    subtitle = "Build powerful APIs with a little bit of SQL!"
     #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
 
   [[params.uses.item]]
     weight = 5
-    name = "lake"
-    title = "Custom<br>SIS API"
-    #subtitle = "No more waiting for underpowered 1<sup>st</sup> party connectors"
+    name = "pot"
+    title = "Point in Time Lookup"
+    subtitle = "See what your data looked like at any point in time!"
     #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
 
 

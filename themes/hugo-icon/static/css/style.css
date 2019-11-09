@@ -534,16 +534,22 @@ width: 80%
 }
 .fh5co-tabs-container .fh5co-tabs li a {
   border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+  min-height: 105px;
+  padding: 10px 15%;
   float: left;
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   letter-spacing: 2px;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
   color: #888;
 }
+
+
+
 .fh5co-tabs-container .fh5co-tabs li a:hover, .fh5co-tabs-container .fh5co-tabs li a:active, .fh5co-tabs-container .fh5co-tabs li a:focus {
   text-decoration: none;
   outline: none;
@@ -555,6 +561,10 @@ width: 80%
 @media screen and (max-width: 660px) {
   .fh5co-tabs-container .fh5co-tabs li {
     width: 100% !important;
+  }
+
+  .fh5co-tabs-container .fh5co-tabs li a {
+    min-height: 32px;
   }
 }
 .fh5co-tabs-container .fh5co-tab-content {

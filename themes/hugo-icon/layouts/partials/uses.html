@@ -9,10 +9,10 @@
     <div class="fh5co-2col-inner left">
       
       <div class="fh5co-tabs-container">
-	<ul class="fh5co-tabs fh5co-four">
+	<ul class="fh5co-tabs fh5co-five">
 	  {{ range .item }}
 	  {{ if eq .weight 1}}<li class="active">{{ else }}<li>{{ end }}
-	    <a href="#" data-tab={{ .name }}>{{ .title | markdownify }}</a>
+	    <a href="#" data-tab={{ .name }}><span>{{ .title | markdownify }}</span></a>
 	  </li>
 	  {{ end }}
 	</ul>
