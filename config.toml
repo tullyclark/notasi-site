@@ -129,7 +129,7 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
     name = "api"
     title = "Custom Database API"
     subtitle = "Build powerful APIs with a little bit of SQL!"
-    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+    description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
 
   [[params.uses.item]]
     weight = 5
