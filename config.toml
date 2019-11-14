@@ -107,8 +107,24 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
     weight = 1
     name = "middleware"
     title = "LMS Syncing"
-    subtitle = "Replace your custom code!"    
-    #description = "<p>Don't worry about data types, complex database architecture or time consuming ETL processes. Just enter the connection details, the query options, and what values make the information unique and Notasi handles the rest. It even stores a full history of all changes made to the data.<br><br>Once you've got your data, schedule with familiar and powerful CRON scheduling.</p><ul class='checked'><li>SQL</li><li>HTTP APIs</li><li>CSV/JSON</li><li>LDAP</li></ul>"
+    #subtitle = "Replace your custom code!"
+    description = '''<p>Replacing your custom, hard to maintain scripts is easy with Notasi. But how does it work?
+    <br>
+    <br>
+    First you need to get all your data out of your SIS. Notasi doesn't mind which system the information is coming from, and you can access it over REST APIs, SQL Queries or even CSV or JSON files. You can pull in all your users, their classes and even the assessments from the SIS.
+    <br>
+    <br>
+    Next you'll need to get the newly stored data from Notasi and into your LMS. With most systems, you can do that with their REST API, so set up a new connection with the URL for the LMS. Then, create a new query:
+    </p>
+    <ol>
+      <li>Enter the query's name and associated location</li>
+      <li>Enter a SQL Query to get the data from Notasi</li>
+      <li>Choose an endpoint and request type</li>
+      <li>Finally, enter a header and body for the request. you can use {curly brackets} around column names from the data lake query to include variables. It will make one request per row returned by the data lake query</li>
+    </ol
+    <p>
+    You'll need to repeat steps 1-4 for every type of data you want to sync (e.g. students, classes, assessments). This is dependent on how your LMS uses the provided information.
+    </p>'''
 
   [[params.uses.item]]
     weight = 2
