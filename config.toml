@@ -120,10 +120,13 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
       <li>Enter the query's name and associated location</li>
       <li>Enter a SQL Query to get the data from Notasi</li>
       <li>Choose an endpoint and request type</li>
-      <li>Finally, enter a header and body for the request. you can use {curly brackets} around column names from the data lake query to include variables. It will make one request per row returned by the data lake query</li>
+      <li>Finally, enter a header and body for the request. You can use {curly brackets} around column names from the data lake query to include variables. It will make one request per row returned by the data lake query</li>
     </ol
     <p>
-    You'll need to repeat steps 1-4 for every type of data you want to sync (e.g. students, classes, assessments). This is dependent on how your LMS uses the provided information.
+    You'll need to repeat steps 1-4 for every type of data you want to sync (e.g. students, classes, assessments), depending on how your LMS uses the provided information.
+    <br>
+    <br>
+    Retrieving assessment results is just as easy, just set up the queries and store the information with views.
     </p>'''
 
   [[params.uses.item]]
@@ -131,28 +134,28 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
     name = "dashboard"
     title = "User Focused Dashboards"
     subtitle = "Personal dashboards for all your users!"
-    #description = "<p>Combine your data sources effortlessly, all you need is a little bit of SQL. Database views are automatically generated, so querying your data is as simple as can be!</p><ul class='checked'><li>Direct database connection</li><li>Custom REST APIs</li></ul>"
+    description = "<p>Once you've got some data in Notasi, you might want to set up dashboards</p>"
 
   [[params.uses.item]]
     weight = 3
     name = "spreadsheet"
     title = "Handling Spreadsheets"
     subtitle = "Run SQL on your spreadsheets!"
-    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+    description = "<p>Spreadsheets still have an incredibly important role in most businesses, but unless you want to hire a VBA developer, using this data is clumsy and manual. Notasi lets you build SQL views from spreadsheets without stressing over schema particulars, and you get to see a full history of the information stored. If you're looking for a more resilient, reliant way of running analytics on your data, Notasi is your perfect solution.</p>"
 
   [[params.uses.item]]
     weight = 4
     name = "api"
     title = "Custom Database API"
     subtitle = "Build powerful APIs with a little bit of SQL!"
-    description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+    description = "<p>If you have security concerns about opening up your database to third party applications, Notasi has a quick and clean solution. You can build custom REST API's that only access the data you want it to. Just enter a SQL query, and then any column returned is available as a variable to include in your request body or as URL parameters.</p>"
 
   [[params.uses.item]]
     weight = 5
     name = "pot"
     title = "Point in Time Lookup"
     subtitle = "See what your data looked like at any point in time!"
-    #description = "<p>Don't wait for your \"favourite\" software company to develop the connectors you need, do it yourself without the stress of custom development. Use the data stored in Notasi as variables in API calls and SQL queries</p>"
+    description = "<p>Notasi is really clever in the way it stores your data. Every time you write data into Notasi, it checks what information has changes since the last write. It timestamps all the data and lets you know whether a certain piece of information came through in the last write.</p>"
 
 
 
