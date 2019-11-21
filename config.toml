@@ -12,7 +12,7 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
 # Hero section (from here on is for icon theme)
 [params.hero]
   title = "Notasi<sup class='beta'> BETA</sup>"
-  subtitle = "..all your data <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
+  subtitle = "...all your data <span id=subtitle-1>Stored</span><span id=subtitle-2>Scheduled</span><span id=subtitle-3>Queried</span><span id=subtitle-4>Connected</span><span id=subtitle-5>Visualised</span><br>...all without a DBA"
   description = "[Download Now](https://github.com/tullyclark/notasi)"
 
 # Navigation section
@@ -55,7 +55,7 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
     name = "visualise"
     title = "Visualise"
     subtitle = "New Dashboards in Seconds!"
-    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, paginations and permissions so you can focus on communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul>"
+    description = "<p>Build mobile ready dashboards and embed them in record time. Notasi handles the layout, pagination and permissions so you can focus on communicating insights to your users!</p><ul class='checked'><li>Responsive Layout</li><li>Automatic Pagination</li><li>As simple or as complex as you need</li><li>Row level security</li><li>Expand built in capabilities (Chart.js)</li></ul>"
 
 # Services section
 [params.services]
@@ -105,6 +105,28 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
 
   [[params.uses.item]]
     weight = 1
+    name = "spreadsheet"
+    title = "Handling Spreadsheets"
+    subtitle = "Run SQL on your spreadsheets!"
+    description = "<p>Spreadsheets still have an incredibly important role in most businesses, but unless you want to hire a VBA developer, using this data is clumsy and manual. Notasi lets you build SQL views from spreadsheets without stressing over schema particulars, and you get to see a full history of the information stored. If you're looking for a more resilient, reliant way of running analytics on your data, Notasi is your perfect solution.</p>"
+
+  [[params.uses.item]]
+    weight = 2
+    name = "api"
+    title = "Custom Database API"
+    subtitle = "Build powerful APIs with a little bit of SQL!"
+    description = "<p>If you have security concerns about opening up your database to third party applications, Notasi has a quick and clean solution. You can build custom REST API's that only access the data you want it to. Just enter a SQL query, and then any column returned is available as a variable to include in your request body or as URL parameters.</p>"
+
+  [[params.uses.item]]
+    weight = 3
+    name = "pot"
+    title = "Point in Time Lookup"
+    subtitle = "See what your data looked like at any point in time!"
+    description = "<p>Notasi is really clever in the way it stores your data. Every time you write data into Notasi, it checks what information has changes since the last write. It timestamps all the data and lets you know whether a certain piece of information came through in the last write.</p>"
+
+
+  [[params.uses.item]]
+    weight = 4
     name = "middleware"
     title = "LMS Syncing"
     #subtitle = "Replace your custom code!"
@@ -130,33 +152,11 @@ title = "Notasi - Data Centralisation and Analytics for Schools and SMBs"
     </p>'''
 
   [[params.uses.item]]
-    weight = 2
+    weight = 5
     name = "dashboard"
     title = "User Focused Dashboards"
     subtitle = "Personal dashboards for all your users!"
     description = "<p>Once you've got some data in Notasi, you might want to set up dashboards</p>"
-
-  [[params.uses.item]]
-    weight = 3
-    name = "spreadsheet"
-    title = "Handling Spreadsheets"
-    subtitle = "Run SQL on your spreadsheets!"
-    description = "<p>Spreadsheets still have an incredibly important role in most businesses, but unless you want to hire a VBA developer, using this data is clumsy and manual. Notasi lets you build SQL views from spreadsheets without stressing over schema particulars, and you get to see a full history of the information stored. If you're looking for a more resilient, reliant way of running analytics on your data, Notasi is your perfect solution.</p>"
-
-  [[params.uses.item]]
-    weight = 4
-    name = "api"
-    title = "Custom Database API"
-    subtitle = "Build powerful APIs with a little bit of SQL!"
-    description = "<p>If you have security concerns about opening up your database to third party applications, Notasi has a quick and clean solution. You can build custom REST API's that only access the data you want it to. Just enter a SQL query, and then any column returned is available as a variable to include in your request body or as URL parameters.</p>"
-
-  [[params.uses.item]]
-    weight = 5
-    name = "pot"
-    title = "Point in Time Lookup"
-    subtitle = "See what your data looked like at any point in time!"
-    description = "<p>Notasi is really clever in the way it stores your data. Every time you write data into Notasi, it checks what information has changes since the last write. It timestamps all the data and lets you know whether a certain piece of information came through in the last write.</p>"
-
 
 
 # Contact section

@@ -193,11 +193,30 @@ p {
   z-index: 1;
 }
 
+
+#fh5co-home {
+  background: linear-gradient(320deg, #ffff00 0%, #f5984e 10%, #516bf0 20%);
+  background-size: 400% 100%;
+  animation: gradientBG 3s ease 1;
+  background-position: 100% 0%;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 10% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+
+
 #fh5co-home {
   min-height: 300px;
-  background-size: cover;
+/*  background-size: cover;*/
   background-repeat: no-repeat;
-  background-position: center center;
+/*  background-position: center center;*/
   -webkit-box-shadow: inset -1px -11px 21px -15px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset -1px -11px 21px -15px rgba(0, 0, 0, 0.75);
   box-shadow: inset -1px -11px 21px -15px rgba(0, 0, 0, 0.75);
@@ -236,7 +255,7 @@ p {
 
 #fh5co-home .fh5co-copy-inner h3 span {
   display: inline-block;
-  color: rgba(26, 31, 67, 0.7);
+  color: rgba(40, 40, 40, 1);
 }
 
 #fh5co-home .fh5co-copy-inner a{
@@ -425,6 +444,7 @@ width: 80%
 }
 #fh5co-uses .fh5co-2col {
   width: 100%;
+  min-height: 500px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-uses .fh5co-2col {
@@ -582,6 +602,8 @@ width: 80%
 }
 .fh5co-tabs-container .fh5co-tab-content.active {
   display: block;
+/*  width: 80%;
+  margin: auto;*/
 }
 @media screen and (max-width: 768px) {
   .fh5co-tabs-container .fh5co-tab-content {
