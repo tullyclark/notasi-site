@@ -1011,7 +1011,8 @@ width: 80%
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
-  border-radius: 0;
+  background: #f5f5f5;
+  border-radius: 10px;
 }
 #fh5co-contact .form-control:active, #fh5co-contact .form-control:focus {
   border-bottom: 1px solid #69c2c8;
